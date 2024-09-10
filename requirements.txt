@@ -1,24 +1,16 @@
 aiosqlite==0.20.0
-altgraph @ file:///AppleInternal/Library/BuildRoots/860631e9-c1c5-11ee-98ee-b6ef2fd8d87b/Library/Caches/com.apple.xbs/Sources/python3/altgraph-0.17.2-py2.py3-none-any.whl
 annotated-types==0.7.0
 anyio==4.4.0
 click==8.1.7
 databases==0.9.0
-distlib==0.3.8
 exceptiongroup==1.2.2
 fastapi==0.114.0
-filelock==3.16.0
-future @ file:///AppleInternal/Library/BuildRoots/860631e9-c1c5-11ee-98ee-b6ef2fd8d87b/Library/Caches/com.apple.xbs/Sources/python3/future-0.18.2-py3-none-any.whl
 h11==0.14.0
 idna==3.8
-macholib @ file:///AppleInternal/Library/BuildRoots/860631e9-c1c5-11ee-98ee-b6ef2fd8d87b/Library/Caches/com.apple.xbs/Sources/python3/macholib-1.15.2-py2.py3-none-any.whl
-platformdirs==4.3.2
 pydantic==2.9.1
 pydantic_core==2.23.3
-six @ file:///AppleInternal/Library/BuildRoots/860631e9-c1c5-11ee-98ee-b6ef2fd8d87b/Library/Caches/com.apple.xbs/Sources/python3/six-1.15.0-py2.py3-none-any.whl
 sniffio==1.3.1
 SQLAlchemy==2.0.34
 starlette==0.38.5
 typing_extensions==4.12.2
 uvicorn==0.30.6
-virtualenv==20.26.4
