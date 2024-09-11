@@ -10,4 +10,4 @@ python3 seed_pokemon.py
 ```
 
 ## run server
-`uvicorn main:app --reload`
+`uvicorn app.main:app --reload`

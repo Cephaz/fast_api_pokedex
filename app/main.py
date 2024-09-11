@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from schemas.models import HealthResponse
 
 app = FastAPI()
 
@@ -14,6 +13,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get("/", response_model=HealthResponse)
-async def health():
-    return HealthResponse(status="Ok")
+@app.get("/api/healthchecker")
+def root():
+    return {"message": "Welcome to FastAPI with SQLAlchemy"}
