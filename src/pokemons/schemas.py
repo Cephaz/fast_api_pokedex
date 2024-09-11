@@ -3,7 +3,6 @@ from pydantic import BaseModel, Field
 
 
 class PokemonBase(BaseModel):
-    id: int
     name: str
     types: List[str]
     total: int
