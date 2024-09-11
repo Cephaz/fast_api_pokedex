@@ -1,8 +1,11 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi_pagination import add_pagination
 from src.pokemons.routes import pokemon_router
 
 app = FastAPI()
+
+add_pagination(app)
 
 origins = ["*"]
 
